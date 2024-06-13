@@ -1,0 +1,19 @@
+{
+  "name": "prettier-latex-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/index.js -o build/bundle.js",
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.3.2",
+    "prettier-plugin-latex": "^2.0.1"
+  }
+}
